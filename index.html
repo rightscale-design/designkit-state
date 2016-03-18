@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Designkit-*</title>
+  <title>Designkit-State</title>
   <link rel="stylesheet" href="css/designkit-state.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <style>
-      * {
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
       }
@@ -33,7 +36,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1>States and labels</h1>
+    <h1>Designkit States and labels</h1>
     <div>
       <span class="state">Default</span>
       <span class="state state-success">Success</span>

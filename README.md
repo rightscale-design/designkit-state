@@ -9,13 +9,37 @@ npm i designkit-*
 ## Usage
 
 ```html
-
+<span class="state">Default</span>
+<span class="state state-success">Success</span>
+<span class="state state-failed">Failed</span>
 ```
 
 ## The CSS
 
 ```css
+/*
+//
+// Designkit-State
+// --------------------------------------------------
+*/
+.state {
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #57626C;
+  border-radius: 3px;
+}
 
+.state-success {
+  background-color: #80C11A;
+}
+
+.state-failed {
+  background-color: #C32525;
+}
 ```
 
 ## Author
