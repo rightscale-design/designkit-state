@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm i designkit-*
+npm i designkit-state
 ```
 
 ## Usage
